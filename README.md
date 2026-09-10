@@ -200,7 +200,36 @@ print(f"Prediction: {'On Time' if prediction == 1 else 'Not On Time'}")
 print(f"Probability: {probabilities[0][1]:.2%}")
 ```
 
-## 📈 Model Performance
+## � Screenshots
+
+### Dashboard Interface
+
+![Dashboard](docs/dashboard.png)
+*Add screenshot of the main Streamlit dashboard with input form and results*
+
+### Prediction Results
+
+![Results](docs/results.png)
+*Add screenshot showing prediction results with probability scores*
+
+### Model Information Tab
+
+![Model Info](docs/model_info.png)
+*Add screenshot of the Model Information tab with feature details and pipeline*
+
+---
+
+**How to add screenshots:**
+
+1. Create a `docs` folder in the project root
+2. Take screenshots of your Streamlit app while running
+3. Save them as PNG files in the `docs` folder:
+   - `docs/dashboard.png` - Main prediction dashboard
+   - `docs/results.png` - Prediction results display
+   - `docs/model_info.png` - Model information tab
+4. Commit and push the `docs` folder to your repository
+
+## �📈 Model Performance
 
 The model was optimized using precision-recall analysis on the validation dataset. The decision threshold was selected to balance false positives and false negatives based on business requirements.
 
