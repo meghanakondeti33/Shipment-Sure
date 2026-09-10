@@ -1,0 +1,97 @@
+# ================================
+# Python
+# ================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ================================
+# Jupyter Notebook
+# ================================
+
+.ipynb_checkpoints/
+
+# ================================
+# Environment / Secrets
+# ================================
+
+.env
+.env.*
+!.env.example
+
+# ================================
+# Streamlit
+# ================================
+
+.streamlit/secrets.toml
+
+# ================================
+# IDE / Editors
+# ================================
+
+.vscode/
+.idea/
+
+# ================================
+# OS Files
+# ================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# Logs
+# ================================
+
+*.log
+
+# ================================
+# Python Packaging
+# ================================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ================================
+# Testing / Coverage
+# ================================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ================================
+# Machine Learning / Data
+# ================================
+
+# Ignore large datasets
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Ignore generated model files
+# Uncomment if your model is too large for GitHub
+# *.pkl
+# *.joblib
+
+# ================================
+# Temporary Files
+# ================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
