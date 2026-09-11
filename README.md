@@ -208,7 +208,7 @@ print(f"Probability: {probabilities[0][1]:.2%}")
 
 ### Inputs interface
 
-![Inputs](docs/inputs.png)
+![Inputs](docs/Screenshot 2026-09-10 222027.png)
 
 ### Prediction Results
 
