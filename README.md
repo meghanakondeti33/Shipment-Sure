@@ -205,17 +205,17 @@ print(f"Probability: {probabilities[0][1]:.2%}")
 ### Dashboard Interface
 
 ![Dashboard](docs/dashboard.png)
-*Add screenshot of the main Streamlit dashboard with input form and results*
+
 
 ### Prediction Results
 
 ![Results](docs/results.png)
-*Add screenshot showing prediction results with probability scores*
+
 
 ### Model Information Tab
 
 ![Model Info](docs/model_info.png)
-*Add screenshot of the Model Information tab with feature details and pipeline*
+
 
 ---
 
